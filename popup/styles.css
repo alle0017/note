@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #f2f2f2;
+    --tertiary-color: #909090;
+    --green: #28cd41;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #1c1c1e;
+        --secondary-color: #2c2c2e;
+        --tertiary-color: #3a3a3c;
+    }
+    * {
+        color: #f2f2f7;
+    }
+}
+body {
+    background-color: var(--primary-color);
+}
+button {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: var(--primary-color);
+    overflow-y: scroll;
+    display: block;
+}
