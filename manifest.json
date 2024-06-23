@@ -1,14 +1,15 @@
 {
     "manifest_version": 2,
     "name": "Pin",
-    "version": "1.0",
+    "version": "1.0.2",
   
     "description": "Write notes on your favorite browser.",
     "permissions": [
       "tabs",
       "<all_urls>",
       "activeTab",
-      "storage"
+      "storage",
+      "downloads"
     ],
     "icons": {
       "48": "./icons/icon.svg",

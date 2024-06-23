@@ -16,6 +16,8 @@
 }
 body {
     background-color: var(--primary-color);
+    overflow-x: hidden;
+    width: 277px;
 }
 button {
     background-color: var(--secondary-color);
@@ -27,9 +29,29 @@ button {
 }
 
 .container {
-    width: 300px;
+    width: 500px;
+    min-width: 500px;
     height: 400px;
     background-color: var(--primary-color);
     overflow-y: scroll;
     display: block;
+    margin-bottom: 100px;
+    padding: 5%;
 }
+
+ul {
+    position: relative;
+    left: 3px;
+    list-style-type: none; 
+    width: 100vw;
+    margin-left: 0px;
+    padding-left: 0px !important;
+ }
+ li {
+    margin-left: 0px;
+    padding-right: 5px;
+    float: left !important;
+ }
+ .icon-button:hover, #new:hover {
+    filter: brightness(50%);
+ }
